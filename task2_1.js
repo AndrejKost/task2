@@ -3,12 +3,12 @@ function f(num) {
         res = num**3;
         console.log(res);
     } else {
-        throw new Error('type is not a number')
+        throw new Error('parameter type is not a Number');
     }
 };
 
-f(3);
-//f('wow');
+f(2);
+//f('Content');
 
 
 
