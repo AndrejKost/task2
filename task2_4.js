@@ -22,6 +22,5 @@ function f(n) {
         throw new Error('parameter type is not a Number');
     }
 };
-
 f(5);
 f('str');
