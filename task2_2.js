@@ -1,6 +1,7 @@
 function f () {
     var res = 0;
-for ( var i = 0; i < arguments.length; i++) {
+//for ( var i = 0; i < arguments.length; i++) {
+for (item of arguments) {
     if (typeof arguments[i] === 'number') {
         res = res + arguments[i];
         } else {
