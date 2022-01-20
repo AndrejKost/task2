@@ -5,4 +5,5 @@ function isEven(n) {
         throw new Error('parameter type is not a Number');
     }
 };
+
 console.log(isEven(''));
